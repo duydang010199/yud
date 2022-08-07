@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    h1 {
+      background-color: #ffa500;
+      color: #dddddd;
+      text-align: center;
+    }
+    caption {
+      background-color: #00bfff;
+      text-align: left;
+      color: #0000ff;
+    }
+  </style>
+  <body>
+    <form method="post" action="url">
+      <table>
+        <h1>Sở thích của bạn</h1>
+        <tr>
+          <td style="color: #0000ff">Họ và tên</td>
+          <td><input type="text" value="" name="yourname" /></td>
+        </tr>
+        <tr>
+          <td style="color: #0000ff">Email</td>
+          <td><input type="text" value="" name="email" /></td>
+        </tr>
+        <tr>
+          <td style="color: #0000ff">Sở thích</td>
+          <td style="color: red">
+            <input type="checkbox" />Thể thao <input type="checkbox" />Âm nhạc
+            <input type="checkbox" />Đọc sách <input type="checkbox" />Lướt web
+            <input type="checkbox" />Chơi game <input type="checkbox" />Điện ảnh
+            <input type="checkbox" />Du lịch
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Gửi thông tin" /></td>
+          <td><input type="reset" value="Nhập lại" /></td>
+        </tr>
+      </table>
+    </form>
+    <form action="url" method="post" style="background-color: #ffbf0098">
+      <table>
+        <caption>
+          ĐĂNG KÝ HỌC VIÊN
+        </caption>
+
+        <tr>
+          <td>Họ và tên</td>
+          <td><input type="text" name="yourname" size="20" /></td>
+        </tr>
+
+        <tr>
+          <td>Ngày sinh</td>
+          <td><input type="text" value="" name="date" size="12" /></td>
+        </tr>
+        <tr>
+          <td>Giới tính</td>
+          <td>
+            <input type="radio" name="rd" />Nam
+            <input type="radio" name="rd" />Nữ
+          </td>
+        </tr>
+        <tr>
+          <td>Địa chỉ</td>
+          <td><input type="text" size="18" /></td>
+        </tr>
+        <tr>
+          <td>Chọn lớp</td>
+          <td>
+            <select name="department">
+              <option>--Chọn lớp--</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input type="text" name="email" size="15" /></td>
+        </tr>
+        <tr>
+          <td>Điện thoại</td>
+          <td><input type="text" name="phone" size="15" /></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Đăng Ký" /></td>
+          <td><input type="reset" value="Nhập lại" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

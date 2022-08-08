@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    span,
+    h2 {
+      color: red;
+      text-align: left;
+    }
+  </style>
+  <body>
+    <form>
+      <h1>Đăng ký tài khoản Demo</h1>
+      <p>Hãy hoàn thành biểu mẫu này chỉ bằng các ký tự tiếng Anh.</p>
+      <p>Lưu ý rằng bạn chỉ có thể mở tối đa năm (5) tài khoản demo.</p>
+      <table>
+        <caption>
+          <h2>Thông tin cá nhân</h2>
+        </caption>
+        <tr>
+          <td colspan="2"><span>*</span>Tên</td>
+          <td><span>*</span>Họ</td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td colspan="2"><span>*</span>Quốc gia lưu trú</td>
+          <td><span>*</span>Thành phố / Thị trấn</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <select>
+              <option value="">Vietnam</option>
+              <option value="">Australia</option>
+              <option value="">Belgium</option>
+              <option value="">Cuba</option>
+              <option value="">Chile</option>
+            </select>
+          </td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><span>*</span>Mã vùng</td>
+          <td><span>*</span>Điện thoại</td>
+          <td><span>*</span>E-mail</td>
+        </tr>
+        <tr>
+          <td>
+            <select>
+              <option value="Vietnam">+84</option>
+              <option value="Australia">+61</option>
+              <option value="Belgium">+32</option>
+              <option value="Cuba">+53</option>
+              <option value="Chile">+56</option>
+            </select>
+          </td>
+          <td><input type="number" /></td>
+          <td><input type="email" /></td>
+        </tr>
+        <tr>
+          <td><span>*</span>Ngôn ngữ</td>
+        </tr>
+        <tr>
+          <td>
+            <select>
+              <option value="">Tiếng Việt</option>
+              <option value="">Tiếng Anh</option>
+              <option value="">Tiếng Đức</option>
+              <option value="">Tiếng Hàn</option>
+              <option value="">Tiếng Pháp</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <hr />
+      <table>
+        <caption>
+          <h2>Chi tiết tài khoản giao dịch</h2>
+        </caption>
+        <tr>
+          <td><span>*</span>Loại phần mềm giao dịch</td>
+          <td><span>*</span>Loại tài khoản</td>
+        </tr>
+        <tr>
+          <td>
+            <select>
+              <option value="">
+                MT5 (forex, CFD tiền điện tử, chứng khoán, chỉ số chứng khoán,
+                kim loại và năng lượng)
+              </option>
+              <option value="">
+                MT4 (forex, CFD tiền điện tử, chỉ số chứng khoán, kim loại và
+                năng lượng)
+              </option>
+            </select>
+          </td>
+          <td>
+            <select name="" id="">
+              <option value="">Stanndard (1 lô = 100.000)</option>
+              <option value="">XM Ultra Low Standard (1 lot = 100.000)</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><span>*</span>Tiền tệ gốc của tài khoản</td>
+          <td><span>*</span>Đòn bẩy</td>
+        </tr>
+        <tr>
+          <td>
+            <select name="" id="">
+              <option value="">EUR</option>
+              <option value="">USD</option>
+              <option value="">GBP</option>
+              <option value="">AUD</option>
+              <option value="">ZAR</option>
+              <option value="">SGD</option>
+            </select>
+          </td>
+          <td>
+            <select name="" id="">
+              <option value="">1:1000</option>
+              <option value="">1:500</option>
+              <option value="">1:400</option>
+              <option value="">1:300</option>
+              <option value="">1:200</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><span>*</span>Số tiền đầu tư</td>
+        </tr>
+        <tr>
+          <td>
+            <select name="" id="">
+              <option value="">1.000</option>
+              <option value="">10.000</option>
+              <option value="">50.000</option>
+              <option value="">500.000</option>
+              <option value="">1.000.000</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <hr />
+      <table>
+        <caption>
+          <h2>Mật khẩu tài khoản</h2>
+        </caption>
+        <p>
+          Trường Mật khẩu tài khoản phải được điền bằng các chữ cái trong bảng
+          chữ cái tiếng Anh và phải bao gồm ba loại ký tự: chữ thường, chữ hoa
+          và số. Bạn cũng có thể sử dụng bất kỳ ký tự đặc biệt nào sau đây: # [
+          ] ( ) @ $ & * ! ? | , . ^ / \ + _ -
+        </p>
+        <tr>
+          <td><span>*</span>Mật khẩu tài khoản</td>
+          <td><span>*</span>Xác nhận mật khẩu</td>
+        </tr>
+        <tr>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+        <ul>
+          <li>8 - 15 ký tự</li>
+          <li>Ít nhất một chữ cái viết hoa (ABC)</li>
+          <li>Ít nhất một chữ cái viết thường (abc)</li>
+          <li>Ít nhất một số (123)</li>
+        </ul>
+        <tr>
+          <td>
+            <input type="checkbox" />Tôi đồng ý nhận các bản tin, tin tức công
+            ty, và cập nhật sản phẩm.
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="MỞ TÀI KHOẢN DEMO" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
